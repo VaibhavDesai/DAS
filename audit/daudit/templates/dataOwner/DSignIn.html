@@ -1,0 +1,20 @@
+<form action="http://127.0.0.1:81/DSignIn/" method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    		{% if error == True %}
+    		<p>Something wrong with Username or password</p>
+    		{% endif %}
+
+			<p>{{ form.username.label_tag }}</p>
+			<p>
+				{{ form.username.errors }}
+				{{ form.username }}
+			</p>
+
+			<p>{{ form.password.label_tag }}</p>
+			<p>
+				{{ form.password.errors }}
+				{{ form.password }}
+			</p>
+
+    <input type="submit" value="Submit" />
+</form>

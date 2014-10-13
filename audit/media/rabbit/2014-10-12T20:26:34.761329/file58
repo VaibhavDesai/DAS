@@ -1,0 +1,9 @@
+                     counter = counter + 1;
+                        } else { %>
+                            <i class="icon-right-open mmL"></i>
+                        <% } %>
+                        <a href="<%= level_values[index].url %>" class="backbone"><%- level_values[index].text %></a>
+                    <% } %>
+                </div>
+                <div class="pull-right pjT hide domain-scores">
+                    <span class="zeta bold">Rank: </span><span class="bold msR domain-rank"

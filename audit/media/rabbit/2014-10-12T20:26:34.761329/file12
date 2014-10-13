@@ -1,0 +1,12 @@
+ror", "debug", "trace", "dir", "group", "groupCollapsed", "groupEnd", "time", "timeEnd", "profile", "profileEnd", "dirxml", "assert", "count", "markTimeline", "timeStamp", "clear"];
+    // define undefined methods as noops to prevent errors
+    for (var i = 0; i < m.length; i++) {
+        if (!window.console[m[i]]) {
+            window.console[m[i]] = function() {};
+        }
+    }
+})();
+</script>
+
+<!-- Load Jquery -->
+<script src="https://d3keuzeb2crhkn.cloudfront.net/hackerrank/assets/base-ade

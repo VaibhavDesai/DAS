@@ -1,0 +1,15 @@
+
+<html>
+<head><title>File Upload</title></head>
+<body>
+	<a href={% url 'DOHome' username %}>Back to home </a></br>
+
+<form action={% url 'uploadFile' username %} method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    {{form}}
+	</br>
+    <input type="submit" value="Submit" />
+    <input type="button" value="cancel"/>
+</form>
+</body>
+</html>

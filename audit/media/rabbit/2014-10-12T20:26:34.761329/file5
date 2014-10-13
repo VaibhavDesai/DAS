@@ -1,0 +1,12 @@
+tiveXObject("Msxml3.XMLHTTP")},function(){return new ActiveXObject("Microsoft.XMLHTTP")}];jsCookies=window.jsCookies;var cookieTimer=null;jsCookies.get("cdn_url")||rate_cdn()}(window);</script>
+
+<!-- DNS Prefetch -->
+<link rel="dns-prefetch" href="//hrcdn.net">
+<link rel="dns-prefetch" href="//d3rpyts3de3lx8.cloudfront.net">
+<link rel="dns-prefetch" href="//notifications.hackerrank.com">
+
+<!-- fragmenting for google bot -->
+<meta name="fragment" content="!">
+
+<!-- use the latest IE browser -->
+<

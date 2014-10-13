@@ -1,0 +1,11 @@
+f="/assets/track.svg" src="/assets/hr_v2/graph.png" width="19" height="15"></image> </svg>
+            <span>Domains</span></a>
+        </li>
+        <li>
+            <a href="/contests" class="nav_link backbone"><i class="icon-clock"></i><span>Contests</span></a>
+        </li>
+        <li>
+            <a href="/leaderboard" class="nav_link backbone"><i class="icon-trophy"></i><span>Leaderboard</span></a>
+        </li>
+        <li>
+            <a href="/submissions" class="nav_link backbone"><i 

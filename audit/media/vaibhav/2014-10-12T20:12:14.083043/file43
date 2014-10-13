@@ -1,0 +1,9 @@
+e="text/javascript">
+        function set_manifest(manifest) {
+            HR.MANIFEST = manifest;
+        }
+    </script>
+    <script src="https://d3keuzeb2crhkn.cloudfront.net/hackerrank/assets/set-manifest-05d690bfde55ab0dc72b1b7f123b653097204087.js" type="text/javascript"></script>
+
+
+    <script data-main="https://d3keuzeb2crhkn.cloudfront.net/hackerrank/assets/dashboard-eded5bf5c5a537d5e8c1bd6d43e2ee25.js" src="https://d3keuzeb2crhkn.cloudfront.net/hackerrank/assets/require-8a6e4585ab57a6d1

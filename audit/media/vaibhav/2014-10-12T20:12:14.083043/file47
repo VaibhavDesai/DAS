@@ -1,0 +1,17 @@
+class="icon-list-bullet-small"></i><span>Submissions</span></a>
+        </li>
+        <!--
+        <li>
+            <a href="" class="nav_link circles backbone">
+                <i class="icon-circle-empty"></i>
+                <i class="icon-circle-empty"></i>
+                <i class="icon-circle-empty"></i>
+            </a>
+        </li>
+        -->
+    </ul>
+</script>
+
+<script type="text/template" id="nav-search">
+    <div class="hide-in-private-contest search-input input-icon">
+        <inp

@@ -1,0 +1,11 @@
+tent"></div>
+        <div id="contestwide-broadcast"></div>
+        <div id="content" class="main_content"></div>
+        <div id="hacker"></div>
+    </div>
+    <footer class="page_footer">
+    <div class="container">
+        <div class="text-center">
+            Join us on IRC at <a target="_blank" class="page_footer-IRC" href="http://webchat.freenode.net/?channels=hackerrank">#hackerrank</a> on freenode for hugs or bugs.
+            <br>
+            <p style="font-size: 14px; margin-top: 5px; 

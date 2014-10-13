@@ -1,0 +1,10 @@
+    <span class="indicator number-indicator hr_notifications_count"></span>
+                </a>
+                <div class="dropdown-menu large" id="notify_broadcasts">
+                    <div class="msT text-center line-below">
+                        <strong>System Broadcasts</strong><br/>
+                        <a class="hr_archive_all black">Archive All</a>
+                    </div>
+                    <div class="row">
+                        <ul class="hr_nav_notifications_list">
+     

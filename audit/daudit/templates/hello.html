@@ -1,0 +1,7 @@
+<form action="http://127.0.0.1:81/open/" method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    {{ form }}
+    <input type="submit" value="Submit" />
+</form>
+
+

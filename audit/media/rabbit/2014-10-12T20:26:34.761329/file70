@@ -1,0 +1,7 @@
+n="Done" data-options="tipLocation:left"><h5 class="walkthrough-header">Submit to see results</h5><span class="walkthrough-text">When you're ready, submit your solution! Remember, you can go back and refine your code anytime.</span><span class="walkthrough-progress">6 of 6</span></li>
+    </ol>
+    <ol id="hr_tour-intro-part-2-tour" class="hide">
+        <li data-class="hr_tour-leaderboard">Check your score</li>
+    </ol>
+    <script type="text/javascript">
+        $(document).ready(function() {

@@ -1,0 +1,14 @@
+ut type="text" id="search-text" class="search-query" autocomplete="off">
+        <i class="icon-search"></i>
+    </div>
+    <div class="hide-in-private-contest search-result hide">
+        <ul class="unstyled"></ul>
+    </div>
+</script>
+
+<script type="text/template" id="nav-buttons">
+    <ul class="pull-right nav-admin mmL">
+
+        <% if (profile && profile.isLoggedIn()) { %>
+            <li class="hide-in-private-contest notify_dropdown dropdown" id="tab-profile">
+                <a class="cu

@@ -1,0 +1,13 @@
+ba1e87ffef2b5d44.js"></script>
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="https://www.hackerrank.com/rest/blogs.rss" />
+
+</head>
+<body id="hr_v2">
+    <script type="text/template" id="navigation">
+    <nav>
+        <div class="nav-inner clearfix">
+            <% if (!HR.PREFETCH_DATA['onboarding']) { %>
+                <span class="nav-links"></span>
+                <span class="nav-buttons"></span>
+            <% } else { %>
+                <span class="nav-links" st

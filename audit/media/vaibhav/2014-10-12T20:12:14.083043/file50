@@ -1,0 +1,11 @@
+                     <div id="notify_messages">
+                        </div>
+                    <div class="final">
+                        <a class="black backbone" href="/inbox">Show All</a>
+                    </div>
+                </div>
+            </li>
+            <li class="dropdown notify_dropdown" id="tab-profile">
+                <a class="cursor backbone nav_link hr_nav_notifications_link" data-toggle="dropdown">
+                    <i class="icon-megaphone"></i>
+                

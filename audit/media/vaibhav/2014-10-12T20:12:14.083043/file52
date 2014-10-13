@@ -1,0 +1,11 @@
+                   </ul>
+                    </div>
+                    <div class="final">
+                        <a class="black backbone" href="/notifications">Show All</a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="drop-down" id="profile-menu">
+                    <a class="backbone nav_link" href="" data-toggle="dropdown">
+                        <img src="<%= _profile.avatar %>" alt="" class="avatar" onerror="this.onerr

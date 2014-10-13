@@ -1,0 +1,4 @@
+ion_hackos backbone" href="/<%= _profile.username %>/hackos">Hackos: <span class="navigation_hackos-count"><%= _profile.hacko_amount %></span></a></li>
+                            <li class="hide-in-private-contest"><a class="backbone" href="/<%= _profile.username %>">Profile</a></li>
+                            <li class="hide-in-private-contest"><a class="backbone" href="<%= HR.appController.get_current_contest_namespace() %>/settings">Settings</a></li>
+                            <li class="h

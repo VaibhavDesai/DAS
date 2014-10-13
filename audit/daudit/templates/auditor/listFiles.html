@@ -1,0 +1,41 @@
+<html>
+<head><title>File Details</title>
+<style>
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+}
+</style>
+</head>
+
+<body>
+	{% csrf_token %}
+	<a href={% url "TPAHome"%}>Back to Home</a>
+	<h1>File details of all the files uploaded </h1>
+	<table style="width:100%">
+  <tr>
+    <th>File ID</th>
+    <th>File Owner</th>
+    <th>File Name</th>
+    <th>Size</th>
+    <th>Data Time</th>
+    <th>Verify Status</th>
+    <th>Verify Now</th>
+  </tr>
+  {% for item in details %}
+  <td>{{item.FileId}}</td>
+  <td>{{item.Owner}}</td>
+  <td>{{item.file_name}}</td>
+  <td>{{item.size}}</td>
+  <td>{{item.datetime}}</td>
+  <td>{{item.verify}}</td>
+  <td><a href={% url 'TPAVerify' item.FileId %}/>verify</a></td>
+  </tr>
+  {% endfor %}
+
+</table>
+</body>
+</html>

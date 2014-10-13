@@ -1,0 +1,19 @@
+         action = 'Click'; data = src.attr('data-analytics');
+        } else {
+            return;
+        }
+
+        // mixpanel
+        mixpanel.push(['track', action, {
+            'UserName' : 'desaivaibhav94',
+            'Data' : data, 'Page' : '/challenges/detect-the-email-addresses',
+            'PageType' : 'HomePage',
+            'Domain': 'www.hackerrank.com'
+        }]);
+
+        // google analytics
+        _gaq.push(['_trackEvent', 'Events' , action, data])
+    });
+</script>
+
+    <!

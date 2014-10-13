@@ -1,0 +1,14 @@
+></span>
+                    <span class="zeta bold">Score: </span><span class="bold domain-score"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</script>
+
+    <script type="text/template" id="side-navigation">
+    <nav class="page_navigation-sidebar expand hr_slide-away-element" id="sidebar">
+        <div class="mini-dash" style="display:none">
+        </div>
+        <ul class="unstyled sidebar_nav-list">
+            <li class="hide-in-private-contest" id="ob-conte

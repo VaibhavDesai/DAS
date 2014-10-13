@@ -1,0 +1,12 @@
+et" id="js-hr-typography" type="text/css" href="https://d3keuzeb2crhkn.cloudfront.net/lib/typography/203221/hosts/https/d3keuzeb2crhkn.cloudfront.net/88E682477450FE526.css" data-noprefix />
+
+<script type="text/javascript">
+    /**
+     * Protect window.console method calls, e.g. console is not defined on IE
+     * unless dev tools are open, and IE doesn't define console.debug
+     */
+(function() {
+    if (!window.console) {
+      window.console = {};
+    }
+    var m = ["log", "info", "warn", "er

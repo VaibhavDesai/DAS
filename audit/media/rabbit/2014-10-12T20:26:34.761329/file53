@@ -1,0 +1,8 @@
+or=null; this.src='https://d3rpyts3de3lx8.cloudfront.net/hackerrank/assets/gravatar.jpg';">
+                        <span class="mmR"><%= _profile.username %></span>
+                        <span class="team-name"></span>
+                        <i class="icon-down-open"></i>
+                    </a>
+                    <div class="dropdown-menu drop-list pull-right" style="max-width:">
+                        <ul>
+                            <li class="hide-in-private-contest"><a class="navigat

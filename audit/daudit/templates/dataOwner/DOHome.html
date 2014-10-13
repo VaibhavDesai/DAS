@@ -1,0 +1,13 @@
+<html>
+	<head>
+		Welcome home!!!
+	</head>
+	<body>
+		<h1>Welcome {{username}} !!!<h1>
+		<a href={% url 'uploadFile' username%}>Upload a file</a></br>
+		<a href={% url 'FileDetails' username%}>File Details</a></br>
+		<a href="/EditFile">Edit files</a></br>
+		<a href="/delete">Delete a file</a><br>
+		<a href={% url "home" %}/>LogOut</a></br>
+	</body>
+</html>

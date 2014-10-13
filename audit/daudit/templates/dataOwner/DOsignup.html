@@ -1,0 +1,36 @@
+<form action="http://127.0.0.1:81/DOSignUP/" method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    		{% if PasswordError == True %}
+    		<p>Password does not match!!</p>
+    		{% endif %}
+
+    		{% if UsernameError == True %}
+    		<p>Username already taken plz try a new one</p>
+    		{% endif %}
+
+			<p>{{ form.name.label_tag }} {{ form.name.help_text }}</p>
+			<p>
+				{{ form.name.errors }}
+				{{ form.name }}
+			</p>
+
+			<p>{{ form.username.label_tag }}</p>
+			<p>
+				{{ form.username.errors }}
+				{{ form.username }}
+			</p>
+
+			<p>{{ form.pass1.label_tag }}</p>
+			<p>
+				{{ form.pass1.errors }}
+				{{ form.pass1 }}
+			</p>
+
+			<p>{{ form.pass2.label_tag }} {{ form.pass2.help_text }}</p>
+			<p>
+				{{ form.pass2.errors }}
+				{{ form.pass2 }}
+			</p>
+
+    <input type="submit" value="Submit" />
+</form>

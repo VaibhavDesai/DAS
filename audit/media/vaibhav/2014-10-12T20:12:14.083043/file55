@@ -1,0 +1,5 @@
+ide-in-private-contest"><a class="backbone" href="/inbox">Inbox</a></li>
+                            <li  class="hide-in-private-contest"id="tab-notifications">
+                              <a class="backbone" href="<%= HR.appController.get_current_contest_namespace() %>/notifications">Notifications <span id="notifications-count"></span></a>
+                            </li>
+                            <li class="hide-in-private-contest"><a class="backbone" href="/administration">Administration

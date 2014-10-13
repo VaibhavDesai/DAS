@@ -1,0 +1,10 @@
+rsor backbone nav_link hr_nav_messages_link" data-toggle="dropdown">
+                    <i class="icon-chat"></i>
+                    <span class="indicator number-indicator hr_messages_count"></span>
+                </a>
+                <div class="dropdown-menu large">
+                    <div class="msT text-center line-below">
+                        <strong>Messages</strong><br/>
+                            <a class="black send_message">Send a new message</a>
+                    </div>
+   

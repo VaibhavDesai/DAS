@@ -1,0 +1,8 @@
+-- General Information -->
+    <title>Programming Problems and Competitions :: HackerRank</title>
+    <base href='https://www.hackerrank.com/'>
+
+    <script type="text/javascript">
+      var HR;
+      HR = window.HR || {};
+      HR.PREFETCH_DATA = {"metadata":{"asset_path":"https://d3keuzeb2crhkn.cloudfront.net/hackerrank/assets","filepicker_key":"ApehXMbvXTWqWab7OmMr9z","landing_contest_slug":"master","current_contest_namespace":"","using_contest_namespace":false,"contest_status":3},"slugs":{"m

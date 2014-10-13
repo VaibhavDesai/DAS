@@ -1,0 +1,7 @@
+t.cookie.indexOf(";",c_start);return-1==c_end&&(c_end=document.cookie.length),unescape(document.cookie.substring(c_start,c_end))}}return""},set:function(c_name,value,expiredays){var exdate=new Date;exdate.setDate(exdate.getDate()+expiredays),document.cookie=c_name+"="+escape(value)+"; path=/"+(null==expiredays?"":"; expires="+exdate.toUTCString())},check:function(c_name){return c_name=jsCookies.get(c_name),null!=c_name&&""!=c_name?!0:!1}};
+
+
+</script>
+
+<!-- CDN Failsafe -->
+<script type="text/ja

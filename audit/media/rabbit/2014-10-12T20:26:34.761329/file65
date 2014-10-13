@@ -1,0 +1,15 @@
+a target="_blank" href="/privacy">Privacy Policy</a> | <a href="#" class="featureRequestButton">Request a Feature</a></p>
+        </div>
+    </div>
+</footer>
+<script>
+    if ($) {
+        $(document).ready(function() {
+            $(".featureRequestButton").bind("click",function(e){
+                e.preventDefault();
+                feature = new HR.util.ShowFeatureRequestDialog();
+                if(feature)
+                {
+                    feature.render();
+                }
+            

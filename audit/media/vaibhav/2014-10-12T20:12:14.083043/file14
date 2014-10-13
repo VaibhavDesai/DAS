@@ -1,0 +1,14 @@
+dow,document,"script","50b78854cb2e10773a00002d");
+
+   _errs.meta = {
+       handle: 'desaivaibhav94',
+       loadTimestamp: 1413108028,
+       assetUrl: 'https://d3keuzeb2crhkn.cloudfront.net/hackerrank',
+       cdnUrl: 'd3keuzeb2crhkn.cloudfront.net'
+   };
+   _errs.allow = function (err) {
+       if (err.message === "Uncaught TypeError: Cannot read property 'frames' of undefined" &&
+           err.line === 206 &&
+           err.stack &&
+           err.stack.indexOf("TeXTheWorld") !== -1) {
+   

@@ -1,0 +1,4 @@
+an></a></li>-->
+            <li class="hide-in-private-contest"><a href="/leaderboard" class="backbone"><i class="nav-icon icon-trophy"></i><span class="nav-text">Leaderboard</span></a></li>
+            <li class="hide-in-private-contest" ><a href="/submissions" class="backbone"><i class="nav-icon icon-list-bullet-small"></i><span class="nav-text">Submissions</span></a></li>
+            <li class="hide-in-private-contest" ><a href="/inbox" class="backbone"><i class="nav-icon icon-chat"></i><span

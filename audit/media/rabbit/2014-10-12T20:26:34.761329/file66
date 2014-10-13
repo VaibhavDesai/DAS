@@ -1,0 +1,17 @@
+});
+        });
+    }
+</script>
+<script>
+    $('.with-help').on({
+        'focus' : function() {
+           $(this).siblings('.sub-help').addClass('in');
+         },
+         'blur' : function() {
+           $(this).siblings('.sub-help').removeClass('in');
+         }
+    });
+</script>
+
+    <ol id="hr_tour-intro-tour" class="hide">
+        <li data-class="hr_tour-challenge-name"  data-options="tipLocation:bottom"><h5 class="walkthrough-header">Challenge Walkthrough</h5><span class="walkthrough-te

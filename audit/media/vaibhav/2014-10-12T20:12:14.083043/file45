@@ -1,0 +1,15 @@
+yle="display: none"></span>
+                <span class="nav-buttons" style="display: none"></span>
+            <% } %>
+        </div>
+    </nav>
+</script>
+
+<script type="text/template" id="nav-links">
+    <ul class="pull-left pmT">
+        <li>
+          <a href="/" class="nav_link backbone logo_mark"><img src="/assets/brand/h_mark_sm.png" alt=""></a>
+        </li>
+        <li>
+            <a href="/domains" class="nav_link backbone">
+                <svg width="23" height="19"><image xlink:hre

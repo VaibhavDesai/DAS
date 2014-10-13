@@ -1,0 +1,4 @@
+sts-link"><a href="/challenges" class="backbone"><i class="nav-icon icon-doc-text"></i><span class="nav-text">All Challenges</span></a></li>
+            <li class="hide-in-private-contest" ><a href="/contests" class="backbone"><i class="nav-icon icon-clock"></i><span class="hr_sidebar_contest_indicator indicator"></span><span class="nav-text">Contests</span></a></li>
+
+            <!--<li class="hide-in-private-contest"><a href=""><i class="nav-icon icon-user"></i><span class="nav-text">Teams</sp

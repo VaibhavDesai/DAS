@@ -1,0 +1,15 @@
+</a></li>
+                            <li><a class="logout-button">Logout</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+        <% } else { %>
+            <li class="nav-btn">
+                 <a href="/auth/login/<%= HR.appController.get_current_contest_slug() %>" class="pull-right btn btn-default"> Log In
+                 </a>
+            </li>
+        <% } %>
+    </ul>
+    <ul class="pull-right mdR">
+        <li class="hide-in-priva
